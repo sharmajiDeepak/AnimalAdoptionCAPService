@@ -25,7 +25,15 @@
         "auth": "xsuaa",
         "db": "hana"
       },
-      "destinations": true
+      "destinations": true,
+      "Northwind": {
+        "kind": "odata-v2",
+        "model": "srv/external/Northwind",
+        "credentials": {
+          "destination": "Northwind",
+          "path": "/v2/northwind/northwind.svc"
+        }
+      }
     },
     "sql": {
       "native_hana_associations": false
