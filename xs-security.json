@@ -1,0 +1,17 @@
+{
+  "scopes": [],
+  "attributes": [],
+  "role-templates": [],
+  "oauth2-configuration": {
+    "token-validity": 43200,
+    "refresh-token-validity": 1800,
+    "redirect-uris": [
+      "https://**.cfapps.us10-001.hana.ondemand.com/**",
+      "https://**.us10.applicationstudio.cloud.sap/**",
+      "https://**.authentication.us10hana.ondemand.com/**",
+      "http://localhost:5000/login/callback",
+      "https://oauth.pstmn.io/v1/browser-callback",
+      "https://oauth.pstmn.io/v1/callback"
+    ]
+}
+}
